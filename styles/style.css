@@ -1,0 +1,105 @@
+/*IMPORT FONTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*CSS RESET*/
+
+:root {
+    --primary-text: #252B42;
+    --hover-text: #fa4a0c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.header__menu a {
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 94px;
+    display: inline-block;
+    color: var(--primary-text);
+}
+
+.header__menu a:hover {
+    color: var(--hover-text)
+}
+
+.active {
+    color: var(--hover-text);
+}
+
+.header__menu li {
+    list-style: none;
+}
+
+.header__description {
+    background: url(../img/background.png);
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header__description-title {
+    margin-top: 60px;
+    color: #fff;
+}
+
+.header__description-title h2 {
+    font-size: 24px;
+}
+
+.header__description-title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 0.2px;
+}
+
+.header__description-title p {
+    margin-top: 20px;
+}
+
+.header__description-button {
+    margin-top: 60px;
+}
+
+.header__description-button a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+    padding: 12px 40px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+
+.header__description-button a:hover {
+    background-color: var(--hover-text);
+    border-color: var(--hover-text);
+}
+
+.header__description-button a:nth-child(2) {
+    margin-right: 0;
+}
