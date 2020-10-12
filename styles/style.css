@@ -103,3 +103,10 @@ body {
 .header__description-button a:nth-child(2) {
     margin-right: 0;
 }
+
+
+svg {
+    position: absolute;
+    bottom: -170px;
+    left: 0;
+}
